@@ -35,7 +35,7 @@ public class Empregado extends Pessoa {
 	*/
 	@Override
 	public String toString(){
-		return super.toString()+"   Desconto: "+this.getComissao()+"% \n";
+		return super.toString()+"   Comissão: "+this.getComissao()+"% \n";
 	}
 
 	@Override
